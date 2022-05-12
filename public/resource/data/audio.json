@@ -9,28 +9,28 @@
             "audioSrc":"resource/assets/audio/01/1/emperor.mp3",
             "duration":"03:25",
             "name":"叫我万岁爷",
-            "author":"小旭AVU"
+            "author":"James"
           },
           {
             "url":"resource/assets/audio/01/2/AfterAfterlife.png",
             "audioSrc":"resource/assets/audio/01/2/AfterAfterlife.mp3",
             "duration":"04:39",
             "name":"来生来世",
-            "author":"DC柯公子"
+            "author":"Dwyane Wade"
           },
           {
             "url":"resource/assets/audio/01/3/Juvenile.png",
             "audioSrc":"resource/assets/audio/01/3/Juvenile.mp3",
             "duration":"04:16",
             "name":"少年天子",
-            "author":"DC柯公子"
+            "author":"vinton"
           },
           {
             "url":"resource/assets/audio/01/4/SouthTone.png",
             "audioSrc":"resource/assets/audio/01/4/SouthTone.mp4",
             "duration":"03:37",
             "name":"我在皇都唱南音",
-            "author":"Double明"
+            "author":"Carmelo Anthony"
           }
         ],
         [
@@ -39,28 +39,28 @@
             "audioSrc":"resource/assets/audio/01/2/AfterAfterlife.mp3",
             "duration":"04:39",
             "name":"来生来世",
-            "author":"DC柯公子"
+            "author":"Dwyane Wade"
           },
           {
             "url":"resource/assets/audio/01/3/Juvenile.png",
             "audioSrc":"resource/assets/audio/01/3/Juvenile.mp3",
             "duration":"04:16",
             "name":"少年天子",
-            "author":"DC柯公子"
+            "author":"vinton"
           },
           {
             "url":"resource/assets/audio/01/4/SouthTone.png",
             "audioSrc":"resource/assets/audio/01/4/SouthTone.mp4",
             "duration":"03:37",
             "name":"我在皇都唱南音",
-            "author":"Double明"
+            "author":"Carmelo Anthony"
           },
           {
             "url":"resource/assets/audio/01/1/emperor.png",
             "audioSrc":"resource/assets/audio/01/1/emperor.mp3",
             "duration":"03:25",
             "name":"叫我万岁爷",
-            "author":"小旭AVU"
+            "author":"James"
           }
         ]
       ],

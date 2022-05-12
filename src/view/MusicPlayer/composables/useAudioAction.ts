@@ -163,13 +163,19 @@ export const useAudioAction = () => {
   const currentTotalTime = computed(() => {
     return handleTimeFormat(totalTime.value);
   });
+  // 当前歌曲资源的总时长
   const loadedMetaData = (e: any) => {
     totalTime.value = parseInt(e.currentTarget.duration);
   };
+  // 目前歌曲播放到哪里的时间
   const timeupdate = (e: any) => {
     currTime.value = parseInt(e?.currentTarget?.currentTime);
   };
 
+  // 音乐播放完毕需要清空播放资源数据
+  const playEnded = () => {
+    handlePlayEnd();
+  };
   const handlePlayEnd = () => {
     audioIsPlaying.value = false;
     isActiveIndex.value = -1;
@@ -183,10 +189,6 @@ export const useAudioAction = () => {
       author: "",
     });
   };
-  // 音乐播放完毕需要清空播放资源数据
-  const playEnded = () => {
-    handlePlayEnd();
-  };
   // 播放进度
   const progressNum = computed(() => {
     if (!currTime.value || !totalTime.value) {
@@ -194,7 +196,6 @@ export const useAudioAction = () => {
     }
     return (currTime.value / totalTime.value) * 100;
   });
-  let totalProcess: HTMLElement | null;
   // 跳转歌曲进度
   const seeked = (progressNum: number) => {
     const seekTime = totalTime.value * (progressNum / 100);
@@ -202,6 +203,7 @@ export const useAudioAction = () => {
       audio.currentTime = seekTime;
     }
   };
+  let totalProcess: HTMLElement | null;
   const changeProgress = (e: any) => {
     if (!audioIsPlaying.value) {
       return;

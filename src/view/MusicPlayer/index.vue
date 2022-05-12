@@ -97,7 +97,7 @@ const {
   .btn-change {
     position: relative;
     left: 600px;
-    top: -12px;
+    top: 10px;
     .main-bg(142px, 49px, "@/assets/btn-change.png");
   }
   .music-image {
