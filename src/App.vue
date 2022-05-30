@@ -5,12 +5,10 @@
 -->
 
 <template>
-  <MusicPlayer></MusicPlayer>
+  <router-view></router-view>
 </template>
 
-<script setup lang="ts">
-import MusicPlayer from "./view/MusicPlayer/index.vue";
-</script>
+<script setup lang="ts"></script>
 
 <style>
 #app {
@@ -20,10 +18,6 @@ import MusicPlayer from "./view/MusicPlayer/index.vue";
   text-align: center;
   color: #2c3e50;
   max-width: 750px;
-}
-.helloWorld {
-  width: 40px;
-  height: 40px;
-  background-color: skyblue;
+  overflow: hidden;
 }
 </style>
